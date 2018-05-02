@@ -16,8 +16,8 @@
 {
   "plugins": {
     "ipsPlugin": {
-      "version": "1.0.0",
-      "provider": "wxxxxxxxxxxxxxxxxx"
+      "version": "1.0.2",
+      "provider": "wxebfaea0a9b1d55f9"
     }
   }
 }
