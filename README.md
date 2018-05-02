@@ -34,7 +34,8 @@ var ipsPlugin = requirePlugin("ipsPlugin")
 
 //appKey和mapID 需要向我方获取
 //设置appkey和mapid    建议写在onLoad中
-ipsPlugin.init({ ipsAppKey: 'fnAs1mE5HP', ipsMapId: 'VhsehJzuZA'});
+//ipsDemo提交审核测试时为true 正常使用下为false ！
+ipsPlugin.init({ ipsDemo:true, ipsAppKey: 'fnAs1mE5HP', ipsMapId: 'VhsehJzuZA'});
 
 //设置导航目的id  写在需要修改导航目的地Id的地方
 ipsPlugin.init({ ipsTargetId: '1111'});
@@ -78,6 +79,8 @@ ipsPlugin.open();
 * 搜索出来没有这个插件的介绍和如何使用，只有头像和名称
 
 * 需要插件开发者在24小时内通过才能使用
+
+* ipsDemo：false ！
 
 
 
